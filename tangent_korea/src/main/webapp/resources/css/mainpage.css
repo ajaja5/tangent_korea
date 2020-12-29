@@ -1,0 +1,79 @@
+.tangent_img_div{
+width : 600px;
+height: 80px;	
+position: absolute;
+top : -20%;
+left: 0%;
+}
+
+.tangent_img_css{
+width : 600px;
+height: 80px;
+}
+
+.korea_img_div{
+width : 80px;
+height: 500px;
+position: absolute;
+top : 0%;
+left : 87%;
+background-image:url("resources/images/korea.PNG");
+}
+
+.korea_img_css{
+width : 80px;
+height: 400px;	
+}
+
+.tan_icon{
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-200px;
+	width:500px;
+	height:400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.aboutus_btn{
+	text-align: center;
+	line-height : 350px;
+	background-color: black;
+	color: white;
+	margin: 5px 5px 5px 5px;
+	width : 200px;
+	height: 200px;
+}
+
+.opr_btn{
+	line-height : 350px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: 5px 5px 5px 5px;
+	width : 200px;
+	height: 200px;
+}
+
+.manual_btn{
+	line-height : 350px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: 5px 5px 5px 5px;
+	width : 200px;
+	height: 200px;
+}
+
+.moter_btn{
+	line-height : 350px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: 5px 5px 5px 5px;
+	width : 200px;
+	height: 200px;
+}

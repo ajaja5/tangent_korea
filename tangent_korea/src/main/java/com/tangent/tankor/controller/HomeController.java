@@ -32,7 +32,7 @@ public class HomeController {
 	public String home(Locale locale, Model model) throws Exception {
 		List<BoardDTO> list = boardService.boardList(); // list 변수에 결과 값을 담는다
 		model.addAttribute("list", list); // model에 데이터 값을 담는다
-		return "home";
+		return "main";
 	}
 	
 }

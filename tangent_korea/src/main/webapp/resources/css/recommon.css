@@ -1,0 +1,81 @@
+#btn_open_menu{
+	position : absolute;
+	top:1.5%;
+	left : 0%;
+	width : 2vw;
+	height : 100vh;
+	color: white;
+	background-color: black;
+	font-size: 2vw;
+	line-height: 100vh;
+}
+
+#open_menu_mom{
+	width : 30vw;
+	height : 100vh;
+	color: white;
+	background-color: black;
+	transition : transform 600ms;
+	transform : translate(-30vw,0vw);
+}
+
+.title_font{
+	font-size: 1vw;
+	text-align: center;
+}
+
+.subtitle_menu{
+	width : 30vw;
+	height: 5vh;
+	font-size: 2.5vw;
+	line-height: 5vh;
+}
+
+.open_menu_opr{
+	width : 30vw;
+	height: 25vh;
+	font-size: 2.5vw;
+	line-height: 1.2em;
+	
+}
+
+.open_menu_msr{
+	width : 30vw;
+	height: 25vh;
+	font-size: 2.5vw;
+	line-height: 1.2em;
+}
+
+.open_menu_use{
+	width : 30vw;
+	height: 15vh;
+	font-size: 2.5vw;
+	line-height: 1.2em;
+}
+
+.open_menu_ctm{
+	width : 30vw;
+	height: 15vh;
+	font-size: 2.5vw;
+	line-height: 1.2em;
+}
+
+.open_menu_eng{
+	width : 30vw;
+	height: 15vh;
+	font-size: 2.5vw;
+	line-height: 1.2em;
+}
+
+#close_btn_menu{
+	z-index : 1;
+	position : absolute;
+	top:5%;
+	left : 90%;
+	width : 2vw;
+	height : 80vh;
+	color: white;
+	background-color: black;
+	font-size: 2vw;
+	line-height: 80vh;
+}
