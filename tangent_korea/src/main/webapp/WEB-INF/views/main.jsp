@@ -8,6 +8,7 @@ uri="http://java.sun.com/jsp/jstl/core" %>
 <head>
 <link href="./resources/css/mainpage.css" rel="stylesheet" />  
 <link href="./resources/css/recommon.css" rel="stylesheet" />  
+<link href="./resources/css/common.css" rel="stylesheet" /> 
 <meta charset="UTF-8">
 
 </head>
@@ -38,10 +39,13 @@ MOTER STARTER
 </div>
 
 <div class="korea_img_div">
-<img class="korea_img_css" src="resources/images/korea.PNG">
+<img class="korea_img_css" src="resources/images/korea.png">
 </div>
 
 </div>
 </section>
+<footer>
+<jsp:include page="/WEB-INF/views/common/Footer.jsp" flush="true" />
+</footer>
 </body>
 </html>
