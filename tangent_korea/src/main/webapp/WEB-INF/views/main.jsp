@@ -7,16 +7,18 @@ uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
 <link href="./resources/css/mainpage.css" rel="stylesheet" />  
+<link href="./resources/css/recommon.css" rel="stylesheet" />  
 <meta charset="UTF-8">
 
 </head>
+
 <body>
 <section class="tan_main">
 <jsp:include page="/WEB-INF/views/common/reheader.jsp" flush="true" />
 <div class="tan_icon">
 
 <div class="tangent_img_div">
-<img class="tangent_img_css" src="resources/images/tangent.PNG">
+<img class="tangent_img_css" src="resources/images/tangent.png">
 </div>
 
 <div class="aboutus_btn">

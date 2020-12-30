@@ -1,3 +1,13 @@
+@font-face{
+	font-family: 'Wemakeprice-SemiBold';
+	src : url("../fonts/Wemakeprice-SemiBold.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: 'NEXON Lv2';
+	src : url("../fonts/NEXON Lv2 Gothic Medium.ttf") format("woff");
+}
+
 .tangent_img_div{
 width : 600px;
 height: 80px;	
@@ -7,22 +17,26 @@ left: 0%;
 }
 
 .tangent_img_css{
-width : 600px;
+width : 670px;
 height: 80px;
+position: absolute;
+left: -10%;
 }
 
 .korea_img_div{
-width : 80px;
-height: 500px;
+width : 20%;
+height: 50%;
 position: absolute;
 top : 0%;
 left : 87%;
-background-image:url("resources/images/korea.PNG");
+
 }
 
 .korea_img_css{
-width : 80px;
-height: 400px;	
+width : 80%;
+height: 215%;
+position: absolute;
+left : -5%;	
 }
 
 .tan_icon{
@@ -36,12 +50,13 @@ height: 400px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	font-family: 'Wemakeprice-SemiBold';
 }
 
 .aboutus_btn{
 	text-align: center;
 	line-height : 350px;
-	background-color: black;
+	background-color: #0b0205;
 	color: white;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
@@ -51,7 +66,7 @@ height: 400px;
 .opr_btn{
 	line-height : 350px;
 	text-align: center;
-	background-color: black;
+	background-color: #0b0205;
 	color: white;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
@@ -61,7 +76,7 @@ height: 400px;
 .manual_btn{
 	line-height : 350px;
 	text-align: center;
-	background-color: black;
+	background-color: #0b0205;
 	color: white;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
@@ -71,7 +86,7 @@ height: 400px;
 .moter_btn{
 	line-height : 350px;
 	text-align: center;
-	background-color: black;
+	background-color: #0b0205;
 	color: white;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
