@@ -21,6 +21,8 @@ width : 670px;
 height: 80px;
 position: absolute;
 left: -10%;
+border: 0;
+outline: 0;
 }
 
 .korea_img_div{
@@ -37,6 +39,8 @@ width : 80%;
 height: 215%;
 position: absolute;
 left : -5%;	
+border: 0;
+outline: 0;
 }
 
 .tan_icon{
@@ -61,6 +65,11 @@ left : -5%;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
 	height: 200px;
+	transition-duration: 1s;
+}
+
+.aboutus_btn:hover{
+	transform: rotate(-45deg);
 }
 
 .opr_btn{
@@ -71,6 +80,11 @@ left : -5%;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
 	height: 200px;
+	transition-duration: 1s;
+}
+
+.opr_btn:hover{
+	transform: rotate(-45deg);
 }
 
 .manual_btn{
@@ -81,6 +95,11 @@ left : -5%;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
 	height: 200px;
+	transition-duration: 1s;
+}
+
+.manual_btn:hover{
+	transform: rotate(-45deg);
 }
 
 .moter_btn{
@@ -91,4 +110,9 @@ left : -5%;
 	margin: 5px 5px 5px 5px;
 	width : 200px;
 	height: 200px;
+	transition-duration: 1s;
+}
+
+.moter_btn:hover{
+	transform: rotate(-45deg);
 }

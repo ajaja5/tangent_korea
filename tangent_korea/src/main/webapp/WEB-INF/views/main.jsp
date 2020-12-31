@@ -14,12 +14,13 @@ uri="http://java.sun.com/jsp/jstl/core" %>
 </head>
 
 <body>
+<section class="main_intro">
 <section class="tan_main">
 <jsp:include page="/WEB-INF/views/common/reheader.jsp" flush="true" />
 <div class="tan_icon">
 
 <div class="tangent_img_div">
-<img class="tangent_img_css" src="resources/images/tangent.png">
+<img class="tangent_img_css" src="resources/images/tangent.png" >
 </div>
 
 <div class="aboutus_btn">
@@ -47,5 +48,6 @@ MOTER STARTER
 <footer>
 <jsp:include page="/WEB-INF/views/common/Footer.jsp" flush="true" />
 </footer>
+</section>
 </body>
 </html>
